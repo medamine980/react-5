@@ -1,0 +1,15 @@
+.expression-form__submit-btn {
+    font-size: 1.25rem;
+    cursor: pointer;
+    padding: 1em;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 1em;
+    transition: .2s;
+    text-decoration: none;
+}
+
+.expression-form__submit-btn:hover {
+    background-color: gray;
+}

@@ -1,0 +1,12 @@
+.expression-form {
+    display: grid;
+    min-height: 100vh;
+    place-items: center;
+    row-gap: .5em;
+    margin-block: .25em;
+}
+
+.expression-form__block {
+    display: flex;
+    flex-direction: column;
+}
