@@ -9,7 +9,7 @@ const ActionButton = ({
     return (
         downloadLink ?
             <a className="expression-form__submit-btn" href={downloadLink} download>{displayText}</a> :
-            <button handleClick={handleClick} className="expression-form__submit-btn">{displayText}</button>
+            <button onClick={handleClick} className="expression-form__submit-btn">{displayText}</button>
     )
 
 
