@@ -5,3 +5,9 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+body,
+button,
+label {
+  font-family: 'Oswald' !important;
+}
